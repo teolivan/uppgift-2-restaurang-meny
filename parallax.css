@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html
+{
+	
+	height: 100%;
+	margin:0;
+	font-size: 20px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #3A2828;
+}
+
+
+.pimg1, .pimg2, .pimg3 {
+	
+	position:relative;
+	opacity: 0.80;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.pimg1 {
+	
+	background-image: url('rundagrillen.jpg');
+	min-height: 100%;
+}
+.pimg2 {
+	
+	background-image: url('pizza.jpg');
+	min-height: 400px;
+}
+.pimg3 {
+	
+	background-image: url('kebab.jpg');
+	min-height: 400px;
+}
+
+.section {
+	text-align: center;
+	padding: 20px 40px;
+}
+
+.section-light {
+	
+	background-color: #7A7A7A;
+	color: #fff;
+}
+
+.section-mitten {
+	
+	background-color:  #414141;
+	color: #fff;
+}
+
+.section-dark {
+	
+	background-color:#2E2E2E;
+	color: #fff;
+}
+
+.ptext {
+	
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align:center;
+	 color: #000; 
+	font-size: 25px;
+    letter-spacing: 7px;
+	text-transform: uppercase;
+}
+
+.ptext .border {
+	
+	background-color: black;
+	color:#fff;
+	padding: 20px;
+}
+
+
+.ptext .border-trans {
+	
+	background-color: transparent;
+	color:#fff;
+	padding: 20px;
+}
+@media(max-width:568px){
+	
+	.pimg1, .pimg2, .pimg3 {
+		background-attachment: scroll;
+	}
+}
